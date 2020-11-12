@@ -8,7 +8,7 @@ BOARD_FILL_COLOR = 1e-5
 
 def main():
 
-    benchmark='D:\TCC-benchmark'
+    benchmark='./data'
     
     
     datadir_train=benchmark+'/train'
