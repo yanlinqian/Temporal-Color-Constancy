@@ -32,19 +32,18 @@ Tested on pytorch >= 1.0 and python3.
 
 ## Download
 ### Dataset
-
--- will upload soon. this project relys on the bcc-benchmark. 
-
 <!---
-[*Shi's Re-processing of Gehler's Raw Dataset*:](http://www.cs.sfu.ca/~colour/data/shi_gehler/)
-
- - Download the 4 zip files from the website and unzip them 
- - Extract images in the `/cs/chroma/data/canon_dataset/586_dataset/png` directory into `./data/images/`, without creating subfolders.
- - Masking MCC chats: 
-```shell
-  bash ./data/run.sh
-```
+-- will upload soon. this project relys on the bcc-benchmark. 
 -->
+
+
+[*Burst Color Constancy Dataset*:](https://www.dropbox.com/sh/jeeu18pmd2h8sp7/AAC2JcOKmcUAvC0AqY8Vub_va?dl=0)
+
+ - Download the all zip files from the website and unzip them, you will get 400 folders (sequences) in train folder, 200 in test folder. 
+ - Move the train folder and test folder into `./data/`, without creating subfolders.
+ - Run `img2npy_temporal.py` to convert all pngs to npy files, which will be used to feed the bcc-net.
+
+
 
 <!---
 ### Pretrained models
