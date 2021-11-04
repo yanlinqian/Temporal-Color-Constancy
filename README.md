@@ -37,7 +37,7 @@ Tested on pytorch >= 1.0 and python3.
 -->
 
 
-[*Burst Color Constancy Dataset*:](https://www.dropbox.com/sh/jeeu18pmd2h8sp7/AAC2JcOKmcUAvC0AqY8Vub_va?dl=0)
+[*Burst Color Constancy Dataset*:](https://www.cs.ubc.ca/research/tcc/)
 
  - Download the all zip files from the website and unzip them, you will get 400 folders (sequences) in train folder, 200 in test folder. 
  - Move the train folder and test folder into `./data/`, without creating subfolders.
